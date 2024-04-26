@@ -70,7 +70,7 @@ trait HasClauses
         }
 
         if ($this->queriesRelationships()) {
-            return $query->whereHas($this->getRelationshipName(), function ($query) use ($clause, $data) {
+            return $query->whereHas($this->getRelationshipName(), function (Builder $query) use ($clause, $data) {
                 $this->applyClause($query, $this->getRelationshipTitleAttribute(), $clause, $data);
             });
         }
@@ -86,7 +86,7 @@ trait HasClauses
             ->options($this->clauses());
 
         if ($this->isClauseLabelDisabled()) {
-            $clause->disableLabel();
+            $clause->hiddenLabel();
         }
 
         if (filled($defaultState = $this->getDefaultState())) {

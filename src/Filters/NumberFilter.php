@@ -76,11 +76,11 @@ class NumberFilter extends BaseFilter
             return $query
                 ->when(
                     $data['from'],
-                    fn (Builder $query, $value): Builder => $query->where($column, '>=', $value),
+                    fn (Builder $query, mixed $value): Builder => $query->where($column, '>=', $value),
                 )
                 ->when(
                     $data['until'],
-                    fn (Builder $query, $value): Builder => $query->where($column, '<=', $value),
+                    fn (Builder $query, mixed $value): Builder => $query->where($column, '<=', $value),
                 );
         }
 

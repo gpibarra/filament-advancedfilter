@@ -91,11 +91,11 @@ class DateFilter extends BaseFilter
             return $query
                 ->when(
                     $data['from'],
-                    fn (Builder $query, $date): Builder => $query->whereDate($column, '>=', $date),
+                    fn (Builder $query, mixed $date): Builder => $query->whereDate($column, '>=', $date),
                 )
                 ->when(
                     $data['until'],
-                    fn (Builder $query, $date): Builder => $query->whereDate($column, '<=', $date),
+                    fn (Builder $query, mixed $date): Builder => $query->whereDate($column, '<=', $date),
                 );
         }
 
@@ -117,7 +117,7 @@ class DateFilter extends BaseFilter
             );
     }
 
-    protected function formatPeriodClause($data): ?Carbon
+    protected function formatPeriodClause(array $data): ?Carbon
     {
         if (empty($data['period_value'])) {
             return null;
