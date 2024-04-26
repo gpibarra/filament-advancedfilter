@@ -2,11 +2,11 @@
 
 namespace Webbingbrasil\FilamentAdvancedFilter\Concerns;
 
+use Closure;
 use Filament\Forms\Components\Component;
 use Filament\Forms\Components\Fieldset;
 use Filament\Forms\Components\Select;
 use Filament\Tables\Filters\Concerns\HasRelationship;
-use Closure;
 use Illuminate\Database\Eloquent\Builder;
 
 trait HasClauses
@@ -17,7 +17,7 @@ trait HasClauses
 
     protected string | Closure | null $wrapperFormUsing = null;
 
-    protected bool | Closure  $enableClauseLabel = false;
+    protected bool | Closure $enableClauseLabel = false;
 
     protected int $debounce = 500;
 
@@ -95,10 +95,10 @@ trait HasClauses
 
         return $this->evaluate($this->formSchema, [
             'clauseField' => $clause,
-            'fields' => $fields
+            'fields' => $fields,
         ]) ?? [
             $this->getWrapper()
-                ->schema(array_merge([$clause], $fields))
+                ->schema(array_merge([$clause], $fields)),
         ];
     }
 
@@ -125,8 +125,7 @@ trait HasClauses
     {
         $wrapperComponent = $this->evaluate($this->wrapperFormUsing);
 
-        if ($wrapperComponent instanceof Component)
-        {
+        if ($wrapperComponent instanceof Component) {
             return $wrapperComponent;
         }
 
@@ -141,5 +140,4 @@ trait HasClauses
     abstract public function clauses(): array;
 
     abstract protected function applyClause(Builder $query, string $column, string $clause, array $data = []): Builder;
-
 }
