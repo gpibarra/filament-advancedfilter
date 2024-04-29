@@ -21,7 +21,7 @@ All notable changes to `filament-advancedfilter` will be documented in this file
 * getRelationshipTitleColumnName to getRelationshipTitleAttribute for Filament v3. by @faizananwerali in https://github.com/webbingbrasil/filament-advancedfilter/pull/34
 * add clauses by @terriani in https://github.com/webbingbrasil/filament-advancedfilter/pull/35
 
-## New Contributors
+### New Contributors
 * @saulens22 made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/28
 * @faizananwerali made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/33
 * @terriani made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/35
@@ -35,7 +35,7 @@ All notable changes to `filament-advancedfilter` will be documented in this file
 * Error handling if clause and value not found in TextFilter by @faizananwerali in https://github.com/webbingbrasil/filament-advancedfilter/pull/33
 * getRelationshipTitleColumnName to getRelationshipTitleAttribute for Filament v3. by @faizananwerali in https://github.com/webbingbrasil/filament-advancedfilter/pull/34
 
-## New Contributors
+### New Contributors
 * @faizananwerali made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/33
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v3.0.0-beta.1...v3.0.0-beta.2
@@ -45,7 +45,7 @@ All notable changes to `filament-advancedfilter` will be documented in this file
 ### What's Changed
 * Filament v3 support by @saulens22 in https://github.com/webbingbrasil/filament-advancedfilter/pull/28
 
-## New Contributors
+### New Contributors
 * @saulens22 made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/28
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v1.2.5...v3.0.0-beta.1
@@ -69,7 +69,7 @@ add 2.x to maintain consistency with Filament versions.
 * Add Indonesia Translation by @stephanus-tantiono in https://github.com/webbingbrasil/filament-advancedfilter/pull/24
 * Fix the Indication message on Number Filter for Between by @kingmaker-agm in https://github.com/webbingbrasil/filament-advancedfilter/pull/26
 
-## New Contributors
+### New Contributors
 * @kitbs made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/25
 * @stephanus-tantiono made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/24
 * @kingmaker-agm made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/26
@@ -81,7 +81,7 @@ add 2.x to maintain consistency with Filament versions.
 ### What's Changed
 * Add Persian translation to package by @mohammadhprp in https://github.com/webbingbrasil/filament-advancedfilter/pull/23
 
-## New Contributors
+### New Contributors
 * @mohammadhprp made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/23
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v1.2.2...v1.2.3
@@ -92,7 +92,7 @@ add 2.x to maintain consistency with Filament versions.
 * docs: Fix import typo by @atoff in https://github.com/webbingbrasil/filament-advancedfilter/pull/21
 * French translation by @invaders-xx
 
-## New Contributors
+### New Contributors
 * @atoff made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/21
 * @invaders-xx
 
@@ -115,7 +115,7 @@ add 2.x to maintain consistency with Filament versions.
 * Fix for NumberFilter Issue webbingbrasil#9 by @erenmustafaozdal in https://github.com/webbingbrasil/filament-advancedfilter/pull/18
 * Update README.md by @Summonshr in https://github.com/webbingbrasil/filament-advancedfilter/pull/19
 
-## New Contributors
+### New Contributors
 * @howdu made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/15
 * @erenmustafaozdal made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/17
 * @Summonshr made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/19
@@ -127,7 +127,7 @@ add 2.x to maintain consistency with Filament versions.
 ### What's Changed
 * Add > character by @rlockett1121 in https://github.com/webbingbrasil/filament-advancedfilter/pull/13
 
-## New Contributors
+### New Contributors
 * @rlockett1121 made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/13
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v1.1.3...v1.1.4
@@ -137,7 +137,7 @@ add 2.x to maintain consistency with Filament versions.
 ### What's Changed
 * Add Arabic translation by @zaak86 in https://github.com/webbingbrasil/filament-advancedfilter/pull/12
 
-## New Contributors
+### New Contributors
 * @zaak86 made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/12
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v1.1.2...v1.1.3
@@ -147,7 +147,7 @@ add 2.x to maintain consistency with Filament versions.
 ### What's Changed
 * Fix for Issue #9 by @devadattas in https://github.com/webbingbrasil/filament-advancedfilter/pull/10
 
-## New Contributors
+### New Contributors
 * @devadattas made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/10
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v1.1.1...v1.1.2
@@ -160,7 +160,7 @@ add 2.x to maintain consistency with Filament versions.
 * fix: conflict between clauses on datefilter by @dmandrade in https://github.com/webbingbrasil/filament-advancedfilter/pull/7
 * fix: dont apply filter if value is blank by @dmandrade in https://github.com/webbingbrasil/filament-advancedfilter/pull/8
 
-## New Contributors
+### New Contributors
 * @rubberneck made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/5
 * @prageeth-peiris made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/6
 
@@ -172,7 +172,7 @@ add 2.x to maintain consistency with Filament versions.
 * Indicators by @marksalmon in https://github.com/webbingbrasil/filament-advancedfilter/pull/1
 * Use filament [v2.15.23](https://github.com/filamentphp/filament/releases/tag/v2.15.23)
 
-## New Contributors
+### New Contributors
 * @marksalmon made their first contribution in https://github.com/webbingbrasil/filament-advancedfilter/pull/1
 
 **Full Changelog**: https://github.com/webbingbrasil/filament-advancedfilter/compare/v1.0.0...v1.1.0
